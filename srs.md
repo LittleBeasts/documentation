@@ -1,4 +1,4 @@
-# Flashcard Community - Software Requirements Specification
+# littleBeasts - Software Requirements Specification
 
 ## Table of Contents
 
