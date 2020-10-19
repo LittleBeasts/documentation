@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
--   [Flashcard Community - Software Requirements Specification](#flashcard-community---software-requirements-specification)
+-   [littleBeasts - Software Requirements Specification](#flashcard-community---software-requirements-specification)
 
     -   [Table of Contents](#table-of-contents)
 
@@ -83,10 +83,13 @@
     -   [4. Supporting Information](#4-supporting-information)
 
 ## 1. Introduction
-
 ### 1.1 Purpose
+The purpose of this document is to present a detailed description of the littleBeast project. It will explain the features of the application, what the application will do and the constraints under which it must operate and how the application will react to external actions. This document is intended for both the stakeholders and the developers of the application.
 
 ### 1.2 Scope
+This SRS applies to the entire littleBeast project. 'littleBeast' is a roleplay game which brings the player into a world with so called littleBeast.
+These can be tamed or cought and the player can engage in battles with the littleBeasts. It will be realized as an Java application. 
+The overview of the features and subsystems are documented in the Use-Case model shown in Overall Description.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 
@@ -95,10 +98,6 @@
 | **SRS**  | Software Requirements Specification |
 | **JSON** | JavaScript Object Notation          |
 | **API**  | Application Programming Interface   |
-| **MTBF** | Mean Time Between Failures          |
-| **MTTR** | Mean Time To Repair                 |
-| **DTO**  | Data Transfer Object                |
-| **HTTP** | Hypertext Transfer Protocol         |
 | **FAQ**  | Frequently Asked Questions          |
 | **REST** | Representational State Transfer     |
 
@@ -106,14 +105,13 @@
 
 | Title                                                                                                 | Date       |
 | ----------------------------------------------------------------------------------------------------- | ---------- |
-| [Blog](https://flashcardcommunity.wordpress.com/)                                                     | 17/10/2018 |
-| [GitHub](https://github.com/phoenixfeder/fc-com/)                                                     | 17/10/2018 |
-| [Spring Boot](https://spring.io/projects/spring-boot)                                                 | 19/10/2018 |
-| [ReactJS](https://reactjs.org/)                                                                       | 19/10/2018 |
-| [Use Case Diagram](https://github.com/phoenixfeder/fc-com/blob/master/FlashCardCommunityUseCases.png) | 21/10/2018 |
+| [Blog](https://littlebeastsgame.wordpress.com/)                                                       | 19/10/2020 |
+| [GitHub](https://github.com/LittleBeasts)                                                             | 19/10/2020 |
+| [Liti Engine](https://litiengine.com/)                                                                | 19/10/2020 |
+| [Use Case Diagram](https://github.com/LittleBeasts/documentation/blob/master/use_cases.png)           | 19/10/2018 |
 
 ### 1.5 Overview
-
+The following of this document gives overview over the functionality of the product and provides an more detailed description of the requirements.
 ## 2. Overall Description
 
 ### 2.1 Vision
