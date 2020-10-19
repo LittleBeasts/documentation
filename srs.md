@@ -115,52 +115,35 @@ The following of this document gives overview over the functionality of the prod
 ## 2. Overall Description
 
 ### 2.1 Vision
+littleBeasts is a fantasy roleplay game in which you’re thrown into a bizarre world. You will find friends in the beasts roaming the wild and cities, but you need to persuade them, to fight beside you. Find out, what mystery lies behind these littleBeasts.
+
+The game will include an interactive fighting system, an easy leveling mechanic and an explorable map. There will also be a story mode were the player can find NPCs and monsters to interact. In this world there will be safe-zones and battle-zones. In these battle-zones the player can engage in random encounters to find new beasts, gain EXP and loot.
+
+The game will be designed in pixel-art-style with small animations for movements and fights.
 
 ## 2.2 Product perspective
+This game will stand out from it's competators by bringing you a unique and unforgetable experience. The fighting system is one of a kind and completely engineered from the ground up. You'll be able to play the game the way you want. Wether you want to fight and catch or find friends and tame. It's completely up to you. The story will blow you away and keep you up long at night. Are you able to find out what happened in the world of littleBeasts. Are you strong and brave enough to handle them? Available as early as next year!
 
 ### 2.3 User characteristics
+The game is targeted at users who like the dark and interesting world of H.P.Lovecraft, who like story intense RPG-games and of course catching and collecting littleBeasts. The user won't need special background information in order to play and understand the game.
 
 ### 2.4 Dependencies
+We have to support several operating-Systems: Linux and Windows. This will be achieved by using Java as our choice of implementation. For an easier and faster approach to game development we chose a new Java-game-engine, the Litiengine. It's espacially made for 2D-Tile-based games.
 
 ## 3. Specific Requirements
+TBD.
 
-### 3.1 Functionality – Data Backend
-
-#### 3.1.1 Read data given over API endpoints
-
-#### 3.1.2 Parse data
-
-#### 3.1.3 Provide data
+### 3.1 Functionality - Calculation Engine
 
 ### 3.2 Functionality – User Interface
-
-#### 3.2.1 User system
-
-#### 3.2.3 Flashcard boxes
-
-#### 3.2.4 Flashcards
-
-#### 3.2.5 Statistics
 
 ### 3.3 Usability
 
 ### 3.4 Reliability
 
-#### 3.4.1 Availability
-
-#### 3.4.2 MTBF, MTTR
-
-#### 3.4.3 Accuracy
-
-#### 3.4.4 Bug classes
-
 ### 3.5 Performance
 
 #### 3.5.1 Response time
-
-#### 3.5.2 Throughput
-
-#### 3.5.3 Capacity
 
 #### 3.5.4 Resource utilization
 
@@ -170,15 +153,11 @@ The following of this document gives overview over the functionality of the prod
 
 #### 3.7.1 Development tools
 
-#### 3.7.2 Spring Boot
-
-#### 3.7.3 ReactJS
+#### 3.7.2 Litiengine
 
 #### 3.7.4 Supported Platforms
 
 ### 3.8 Online User Documentation and Help System Requirements
-
-### 3.9 Purchased Components
 
 ### 3.10 Interfaces
 
@@ -193,7 +172,3 @@ The following of this document gives overview over the functionality of the prod
 ### 3.11 Licensing Requirements
 
 ### 3.12 Legal, Copyright and other Notices
-
-### 3.13 Applicable Standards
-
-## 4. Supporting Information
