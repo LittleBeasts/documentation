@@ -122,7 +122,7 @@ The game will include an interactive fighting system, an easy leveling mechanic 
 The game will be designed in pixel-art-style with small animations for movements and fights.
 
 ## 2.2 Use Case Diagram
-
+<img src="https://github.com/LittleBeasts/documentation/blob/master/use_cases.png"/>
 ## 2.3 Product perspective
 This game will stand out from it's competators by bringing you a unique and unforgetable experience. The fighting system is one of a kind and completely engineered from the ground up. You'll be able to play the game the way you want. Wether you want to fight and catch or find friends and tame. It's completely up to you. The story will blow you away and keep you up long at night. Are you able to find out what happened in the world of littleBeasts. Are you strong and brave enough to handle them? Available as early as next year!
 
