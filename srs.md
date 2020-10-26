@@ -17,7 +17,7 @@
     -   [2. Overall Description](#2-overall-description)
 
         -   [2.1 Vision](#21-vision)
-    -   [2.2 Use Case Diagram](#22-product-perspective)
+    -   [2.2 Use Case Diagram](#22-use-case-diagram)
     -   [2.3 Product perspective](#23-product-perspective)
 
         -   [2.4 User characteristics](#24-user-characteristics)
