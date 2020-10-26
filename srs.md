@@ -17,11 +17,11 @@
     -   [2. Overall Description](#2-overall-description)
 
         -   [2.1 Vision](#21-vision)
+    -   [2.2 Use Case Diagram](#22-product-perspective)
+    -   [2.3 Product perspective](#23-product-perspective)
 
-    -   [2.2 Product perspective](#22-product-perspective)
-
-        -   [2.3 User characteristics](#23-user-characteristics)
-        -   [2.4 Dependencies](#24-dependencies)
+        -   [2.4 User characteristics](#24-user-characteristics)
+        -   [2.5 Dependencies](#25-dependencies)
 
     -   [3. Specific Requirements](#3-specific-requirements)
 
@@ -121,13 +121,15 @@ The game will include an interactive fighting system, an easy leveling mechanic 
 
 The game will be designed in pixel-art-style with small animations for movements and fights.
 
-## 2.2 Product perspective
+## 2.2 Use Case Diagram
+
+## 2.3 Product perspective
 This game will stand out from it's competators by bringing you a unique and unforgetable experience. The fighting system is one of a kind and completely engineered from the ground up. You'll be able to play the game the way you want. Wether you want to fight and catch or find friends and tame. It's completely up to you. The story will blow you away and keep you up long at night. Are you able to find out what happened in the world of littleBeasts. Are you strong and brave enough to handle them? Available as early as next year!
 
-### 2.3 User characteristics
+### 2.4 User characteristics
 The game is targeted at users who like the dark and interesting world of H.P.Lovecraft, who like story intense RPG-games and of course catching and collecting littleBeasts. The user won't need special background information in order to play and understand the game.
 
-### 2.4 Dependencies
+### 2.5 Dependencies
 We have to support several operating-Systems: Linux and Windows. This will be achieved by using Java as our choice of implementation. For an easier and faster approach to game development we chose a new Java-game-engine, the Litiengine. It's espacially made for 2D-Tile-based games.
 
 ## 3. Specific Requirements
