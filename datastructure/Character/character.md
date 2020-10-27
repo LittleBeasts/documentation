@@ -1,5 +1,6 @@
 # Properties of a Character
 
+**Name** - String, name of the character
 **Max Hit Points** - Integer value, Total maximal hit points of a character  
 **Hit points left** - Integer value < Max Hit Points, Remaining hit poins of a character  
 **Atk** - Integer value, the attack damage of a character  
