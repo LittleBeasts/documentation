@@ -17,7 +17,7 @@ To move a creature it needs a movement controller. The controller is added to th
 ```JAVA
 this.addController(new PlatformingMovementController<>(this)); 
 ```
-There are different kinds of controllers with differen functionallity provided by the LITIengine.
+There are different kinds of controllers with different functionallity provided by the LITIengine.
 
 The last factor for movement is the camera. In the LITIengine there are different camera options, we will mostly lock our camera to the player movements.
 ```JAVA
