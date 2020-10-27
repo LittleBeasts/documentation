@@ -1,4 +1,4 @@
-# Properties of a Charakter
+# Properties of a Character
 
 **Max Hit Points** - Integer value, Total maximal hit points of a character  
 **Hit points left** - Integer value < Max Hit Points, Remaining hit poins of a character  
