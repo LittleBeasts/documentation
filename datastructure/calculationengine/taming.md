@@ -16,7 +16,7 @@ The taming ability can also be leveled up as any other skill.
 
 ## Why would you Tame if you can Catch?
 Taming will bring additional perks, a beast, which is tamed and not cought will have a better 'friendship' with the player
-and therefor perform better in battle. Additional perks can be added to balance the effort to tame.
+and therefor perform better in battle. Additional perks can be added to balance the effort to tame. (e.g. higher level skills)
 
 ## Ending the Taming Process
 When the player thinks they have pursuaded the beast to come with them, they can try to use a collar on the littleBeast.
