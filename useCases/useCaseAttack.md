@@ -17,7 +17,7 @@ This use case gives users the possibility to attack enemies. The actor has diffe
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 #### 2.1.1 Activity Diagram
-![Activity Diagram](https://raw.githubusercontent.com/LittleBeasts/documentation/master/PlayerAttack.png)
+![Activity Diagram](https://raw.githubusercontent.com/LittleBeasts/documentation/master/useCases/diagrams/PlayerAttack.png)
 #### 2.1.2 Mockup
 #### 2.1.3 Narrative
 ## 3. Special requirements
