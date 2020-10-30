@@ -5,7 +5,7 @@ The Loottable could look something like this:
 ```JSON
 {   
     "itemTable": {
-        "#category": {
+        "#rarity": {
             "label": "string: labels the items cotained in this object, e.g: SPECIAL, RARE,...",
             "probability": "general propability for all items inside category",
             "items": [
@@ -25,8 +25,10 @@ The Loottable could look something like this:
         "#container": {
             "numberOfitems": "Max amount of items which can be found",
             "propabilitys": [
-                "int: propability that the container has x items"
-            ]
+                "int: propability that the container has x items"                
+            ],
+            "item":"defined drop (can be ommited)",
+            "rarity":"defined rarity"
         }
     }
 }
