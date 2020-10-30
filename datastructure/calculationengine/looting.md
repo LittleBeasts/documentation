@@ -5,7 +5,7 @@ The Loottable could look something like this:
 ```JSON
 {   
     "itemTable": {
-        "category": {
+        "#category": {
             "label": "string: labels the items cotained in this object, e.g: SPECIAL, RARE,...",
             "probability": "general propability for all items inside category",
             "items": [
