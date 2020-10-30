@@ -22,7 +22,7 @@ The Loottable could look something like this:
         }
     },
     "containerTable": {
-        "container": {
+        "#container": {
             "numberOfitems": "Max amount of items which can be found",
             "propabilitys": [
                 "int: propability that the container has x items"
