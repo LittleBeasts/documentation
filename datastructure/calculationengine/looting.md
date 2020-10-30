@@ -28,7 +28,7 @@ The Loottable could look something like this:
                 "int: propability that the container has x items"                
             ],
             "item":"defined drop (can be ommited)",
-            "rarity":"defined rarity"
+            "rarity":"defined rarity (can be ommited)"
         }
     }
 }
