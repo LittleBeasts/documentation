@@ -7,7 +7,6 @@ This is the documentation for the littleBeasts game
     * Attacke wählen → Ergebnis: Gewonnen oder nicht.
     * ~~Lebensleiste~~ (1LP → Getroffen heißt verloren)
 - Events, die Damage machen, Monster kreieren, 
-- 
 - Monster kann attacke wählen
 - Player kann attacke wählen
 - Monster bekommt Schaden (Anzeige nicht notwendig → 2-3 Treffer höchstens)
