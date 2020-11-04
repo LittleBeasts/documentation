@@ -1,7 +1,7 @@
 # documentation
 This is the documentation for the littleBeasts game
 
-<hl>
+# Plan
  - Oberfläche im Spiel: 
   * Kampfoberfläche: 
     * Attacke wählen → Ergebnis: Gewonnen oder nicht.
