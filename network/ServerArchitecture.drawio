@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T12:19:35.669Z" agent="5.0 (Windows)" etag="XB-iBkIpUswrJVr5vNjU" version="13.8.9-1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-04T12:22:57.483Z" agent="5.0 (Windows)" etag="WpvcsxRBnWJ7lR2_amGZ" version="13.8.9-1" type="github">
   <diagram id="iIO2hFb25z206siyJyQo" name="Page-1">
-    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1831" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -262,6 +262,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="330" as="sourcePoint" />
             <mxPoint x="360" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eZJcZ2LTqGfjDGCqSCHV-25" value="&lt;div align=&quot;left&quot;&gt;Jeder Raum besitzt einen Listener Thread, welcher einen Token an alle Clients in der Clientlist nacheinander weitergibt&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="580" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eZJcZ2LTqGfjDGCqSCHV-26" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eZJcZ2LTqGfjDGCqSCHV-25" target="eZJcZ2LTqGfjDGCqSCHV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="630" as="sourcePoint" />
+            <mxPoint x="160" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
