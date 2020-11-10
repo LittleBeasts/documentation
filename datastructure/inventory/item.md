@@ -16,6 +16,8 @@ boolean equipped
 
 boolean unique
 
+Enum armor {Armor.Shoulders, Armor.Weapen...}
+
 int amount
 
 int amountOfUses (durability)
