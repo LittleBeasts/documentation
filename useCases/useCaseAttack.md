@@ -19,6 +19,7 @@ This use case gives users the possibility to attack enemies. The actor has diffe
 #### 2.1.1 Activity Diagram
 ![Activity Diagram](https://raw.githubusercontent.com/LittleBeasts/documentation/master/useCases/diagrams/PlayerAttack.png)
 #### 2.1.2 Mockup
+![Mockup](https://github.com/LittleBeasts/documentation/blob/master/useCases/mockups/useCaseAttack.png)
 #### 2.1.3 Cucumber
 You can find the Cucumber .feature file right [here](https://github.com/LittleBeasts/littleBeasts/blob/master/src/test/resources/attack.feature).
 ## 3. Special requirements
