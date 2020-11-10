@@ -5,6 +5,7 @@ The effects of item can be diverse so it will be difficult to plan everything th
 
 An item will have the following variables:
 
+```Java
 String name
 
 String spriteName
@@ -20,3 +21,4 @@ int amount
 int amountOfUses (durability)
 
 int[] bonusStats [healthPoints, speed, stamina, attack, defense, critBonus]
+```
