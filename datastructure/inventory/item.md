@@ -6,10 +6,17 @@ The effects of item can be diverse so it will be difficult to plan everything th
 An item will have the following variables:
 
 String name
+
 String spriteName
+
 boolean consumable
+
 boolean equipped
+
 boolean unique
+
 int amount
+
 int amountOfUses (durability)
+
 int[] bonusStats [healthPoints, speed, stamina, attack, defense, critBonus]
