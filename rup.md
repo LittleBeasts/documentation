@@ -233,8 +233,8 @@ Table of Contents
 
 </dt>
 <dd>
-![](https://github.com/LittleBeasts/documentation/blob/master/classDiagram.svg)
 <div class="Section2">[8.1 <span style="font-size:12.0pt"></span> Overview](#8.1               Overview)     </div>
+![](https://github.com/LittleBeasts/documentation/blob/master/classDiagram.svg)
 
 <div class="Section2">[8.2 <span style="font-size:12.0pt"></span> Layers](#8.2               Layers)     </div>
 
