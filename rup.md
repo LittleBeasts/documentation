@@ -222,6 +222,7 @@ include a mapping of the processes of the **Process View** onto the
 physical nodes.]
 
 #### 8.                  Implementation View
+![](https://github.com/LittleBeasts/documentation/blob/master/classDiagram.svg)
 
 [This section describes the overall structure of the implementation
 model, the decomposition of the software into layers and subsystems in
