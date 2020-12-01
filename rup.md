@@ -1,57 +1,42 @@
-\<Project Name\>
+LittleBeasts
 
 Software Architecture Document
 
-Version \<1.0\>
-
-*[Note: The following template is provided for use with the Rational
-Unified Process.  Text enclosed in square brackets and displayed in blue
-italics (style=InfoBlue) is included to provide guidance to the author
-and should be deleted before publishing the document. A paragraph
-entered following this style will automatically be set to normal
-(style=Body Text).]*
 
  
+#Revision History
 
-Revision History
+#+--------------------+--------------------+--------------------+--------------------+
+#| **Date**           | **Version**        | **Description**    | **Author**         |
+#+--------------------+--------------------+--------------------+--------------------+
+#| \<dd/mmm/yy\>      | \<x.x\>            | \<details\>        | \<name\>           |
+#+--------------------+--------------------+--------------------+--------------------+
+#|                    |                    |                    |                    |
+#+--------------------+--------------------+--------------------+--------------------+
+#|                    |                    |                    |                    |
+#+--------------------+--------------------+--------------------+--------------------+
+#|                    |                    |                    |                    |
+#+--------------------+--------------------+--------------------+--------------------+
 
-+--------------------+--------------------+--------------------+--------------------+
-| **Date**           | **Version**        | **Description**    | **Author**         |
-+--------------------+--------------------+--------------------+--------------------+
-| \<dd/mmm/yy\>      | \<x.x\>            | \<details\>        | \<name\>           |
-+--------------------+--------------------+--------------------+--------------------+
-|                    |                    |                    |                    |
-+--------------------+--------------------+--------------------+--------------------+
-|                    |                    |                    |                    |
-+--------------------+--------------------+--------------------+--------------------+
-|                    |                    |                    |                    |
-+--------------------+--------------------+--------------------+--------------------+
 
 **\
 **
 
 Table of Contents
 
-[1.      
-Introduction](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Introduction)         
+[1.Introduction](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Introduction)         
 
-[1.1    
-Purpose](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.1%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Purpose)     
+[1.1 Purpose](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.1%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Purpose)     
 
-[1.2    
-Scope](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.2%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Scope)     
+[1.2 Scope](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.2%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Scope)     
 
-[1.3     Definitions, Acronyms and
-Abbreviations](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.3%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Definitions,%20Acronyms%20and%20Abbreviations)     
+[1.3 Definitions, Acronyms and Abbreviations](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.3%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Definitions,%20Acronyms%20and%20Abbreviations)     
 
-[1.4    
-References](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.4%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20References)     
+[1.4 References](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.4%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20References)     
 
-[1.5    
-Overview](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.5%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Overview)     
+[1.5 Overview](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.5%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Overview)     
 
-[2.       Architectural
-Representation](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#2.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Architectural%20Representation)
+[2. Architectural Representation](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#2.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Architectural%20Representation)
 
 [3.       Architectural Goals and
 Constraints](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#3.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Architectural%20Goals%20and%20Constraints)   
@@ -59,54 +44,43 @@ Constraints](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/
 [4.       Use-Case
 View](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#4.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Use-Case%20View)
 
-[4.1     Use-Case
-Realizations](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#4.1%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Use-Case%20Realizations)     
+[4.1 Use-Case Realizations](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#4.1%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Use-Case%20Realizations)     
 
  
 
-[5.       Logical
-View](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#5.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Logical%20View)
+[5. Logical View](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#5.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Logical%20View)
 
-[5.1    
-Overview](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#5.1%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Overview)     
+[5.1 Overview](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#5.1%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Overview)     
 
-[5.2     Architecturally Significant Design
-Packages](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#5.2%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Architecturally%20Significant%20Design%20Packages)     
+[5.2 Architecturally Significant Design Packages](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#5.2%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Architecturally%20Significant%20Design%20Packages)     
 
-[6.       Process
-View](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#6.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Process%20View)
+[6. Process View](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#6.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Process%20View)
 
-[7.       Deployment
-View](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#7.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Deployment%20View)
+[7. Deployment View](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#7.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Deployment%20View)
 
-[8.       Implementation
-View](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#8.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Implementation%20View)
+[8. Implementation View](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#8.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Implementation%20View)
 
-[8.1    
-Overview](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#8.1%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Overview)     
+[8.1 Overview](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#8.1%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Overview)     
 
-[8.2    
-Layers](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#8.2%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Layers)     
+[8.2 Layers](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#8.2%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Layers)     
 
-[9.       Data View
-(optional) ](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#9.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Data%20View%20(optional))      
+[9. Data View (optional) ](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#9.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Data%20View%20(optional))      
 
-[10.     Size and
-Performance](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#10.%20%20%20%20%20%20%20%20%20%20%20%20%20Size%20and%20Performance)               
+[10. Size and Performance](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#10.%20%20%20%20%20%20%20%20%20%20%20%20%20Size%20and%20Performance)               
 
-[11.      Quality](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#11.%20%20%20%20%20%20%20%20%20%20%20%20%20Quality)               
+[11. Quality](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#11.%20%20%20%20%20%20%20%20%20%20%20%20%20Quality)               
 
 \
  Software Architecture Document
 
-#### 1.                  Introduction
+#### 1. Introduction
 
 [The introduction of the **Software Architecture Document** should
 provide an overview of the entire **Software Architecture Document**. It
 should include the purpose, scope, definitions, acronyms, abbreviations,
 references, and overview of the **Software Architecture Document**.]
 
-##### 1.1               Purpose
+##### 1.1 Purpose
 
 This document provides a comprehensive architectural overview of the
 system, using a number of different architectural views to depict
@@ -120,19 +94,19 @@ the structure of the document. The specific audiences for the document
 should be identified, with an indication of how they are expected to use
 the document.]
 
-##### 1.2               Scope
+##### 1.2 Scope
 
 [A brief description of what the Software Architecture Document applies
 to; what is affected or influenced by this document.]
 
-##### 1.3               Definitions, Acronyms and Abbreviations
+##### 1.3 Definitions, Acronyms and Abbreviations
 
 [This subsection should provide the definitions of all terms, acronyms,
 and abbreviations required to properly interpret the **Software
 Architecture Document**.  This information may be provided by reference
 to the project Glossary.]
 
-##### 1.4               References
+##### 1.4 References
 
 [This subsection should provide a complete list of all documents
 referenced elsewhere in the **Software Architecture Document**.  Each
@@ -141,13 +115,13 @@ date, and publishing organization.  Specify the sources from which the
 references can be obtained. This information may be provided by
 reference to an appendix or to another document.]
 
-##### 1.5               Overview
+##### 1.5 Overview
 
 [This subsection should describe what the rest of the **Software
 Architecture Document** contains and explain how the **Software
 Architecture Document** is organized.]
 
-#### 2.                  Architectural Representation
+#### 2. Architectural Representation
 
 [This section describes what software architecture is for the current
 system, and how it is represented. Of the **Use-Case**, **Logical**,
@@ -155,7 +129,7 @@ system, and how it is represented. Of the **Use-Case**, **Logical**,
 the views that are necessary, and for each view, explains what types of
 model elements it contains.]
 
-#### 3.                  Architectural Goals and Constraints
+#### 3. Architectural Goals and Constraints
 
 [This section describes the software requirements and objectives that
 have some significant impact on the architecture, for example, safety,
@@ -164,7 +138,7 @@ distribution, and reuse. It also captures the special constraints that
 may apply: design and implementation strategy, development tools, team
 structure, schedule, legacy code, and so on.]
 
-#### 4.                  Use-Case View
+#### 4. Use-Case View
 
 [This section lists use cases or scenarios from the use-case model if
 they represent some significant, central functionality of the final
@@ -172,13 +146,13 @@ system, or if they have a large architectural coverage - they exercise
 many architectural elements, or if they stress or illustrate a specific,
 delicate point of the architecture.]
 
-##### 4.1               Use-Case Realizations
+##### 4.1 Use-Case Realizations
 
 [This section illustrates how the software actually works by giving a
 few selected use-case (or scenario) realizations, and explains how the
 various design model elements contribute to their functionality.]
 
-#### 5.                  Logical View
+#### 5. Logical View
 
 [This section describes the architecturally significant parts of the
 design model, such as its decomposition into subsystems and packages.
@@ -187,12 +161,12 @@ class utilities. You should introduce architecturally significant
 classes and describe their responsibilities, as well as a few very
 important relationships, operations, and attributes.]
 
-##### 5.1               Overview
+##### 5.1 Overview
 
 [This subsection describes the overall decomposition of the design model
 in terms of its package hierarchy and layers.]
 
-##### 5.2               Architecturally Significant Design Packages
+##### 5.2 Architecturally Significant Design Packages
 
 [For each significant package, include a subsection with its name, its
 brief description, and a diagram with all significant classes and
@@ -202,7 +176,7 @@ For each significant class in the package, include its name, brief
 description, and, optionally a description of some of its major
 responsibilities, operations and attributes.]
 
-#### 6.                  Process View
+#### 6. Process View
 
 [This section describes the system's decomposition into lightweight
 processes (single threads of control) and heavyweight processes
@@ -211,7 +185,7 @@ processes that communicate or interact. Describe the main modes of
 communication between processes, such as message passing, interrupts,
 and rendezvous.]
 
-#### 7.                  Deployment View
+#### 7. Deployment View
 
 [This section describes one or more physical network (hardware)
 configurations on which the software is deployed and run. It is a view
@@ -221,7 +195,7 @@ and their interconnections (bus, LAN, point-to-point, and so on.) Also
 include a mapping of the processes of the **Process View** onto the
 physical nodes.]
 
-#### 8.                  Implementation View
+#### 8. Implementation View
 ![](https://github.com/LittleBeasts/documentation/blob/master/classDiagram.svg)
 
 [This section describes the overall structure of the implementation
@@ -229,31 +203,31 @@ model, the decomposition of the software into layers and subsystems in
 the implementation model, and any architecturally significant
 components.]
 
-##### 8.1               Overview
+##### 8.1 Overview
 
 [This subsection names and defines the various layers and their
 contents, the rules that govern the inclusion to a given layer, and the
 boundaries between layers. Include a component diagram that shows the
 relations between layers. ]
 
-##### 8.2               Layers
+##### 8.2 Layers
 
 [For each layer, include a subsection with its name, an enumeration of
 the subsystems located in the layer, and a component diagram.]
 
-#### 9.                  Data View (optional)
+#### 9. Data View (optional)
 
 [A description of the persistent data storage perspective of the system.
 This section is optional if there is little or no persistent data, or
 the translation between the Design Model and the Data Model is trivial.]
 
-#### 10.             Size and Performance
+#### 10. Size and Performance
 
 [A description of the major dimensioning characteristics of the software
 that impact the architecture, as well as the target performance
 constraints.]
 
-#### 11.             Quality
+#### 11. Quality
 
 [A description of how the software architecture contributes to all
 capabilities (other than functionality) of the system: extensibility,
