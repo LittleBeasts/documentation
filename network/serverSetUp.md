@@ -31,5 +31,5 @@ When the game can't connect to the server there will be an error in the console.
 
 The project is built with a maven pom file. It could be that you will need to build the project before the first start up so all the needed libraries are installed.
 
-For the project wie used the openjdk-15 "15.0.1"
+For the project we used the openjdk-15 "15.0.1"
 
