@@ -25,11 +25,11 @@ In game you can start an online game.
 </p>
 
 
-When the game can't connect to the server there will be an error in the console.
+When the game can't connect to the server there will be an error in the console.<br>
 
 6) To start a chat window just press the "return" key.
 
-The project is built with a maven pom file. I could be that you will need to build the project before the first start up so all the needed libraries are installed.
+The project is built with a maven pom file. It could be that you will need to build the project before the first start up so all the needed libraries are installed.
 
 For the project wie used the openjdk-15 "15.0.1"
 
