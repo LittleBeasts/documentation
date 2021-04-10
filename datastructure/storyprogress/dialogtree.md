@@ -56,7 +56,8 @@ I'm going to use propose another Datastructure for Dialogs, which I think is eas
             "Speaker": "<name>",
             "Text": "Let's got to his office!"
           },
-        ]
+        ],
+        "Trigger": "Nike"
       },
       "Tutorial":{
         "...":"..."
@@ -65,7 +66,14 @@ I'm going to use propose another Datastructure for Dialogs, which I think is eas
   },
   "Greetings": {
     "K": ["Der Klimawandel ist eine Lüge!.. ähhh Ich meine MEOW?"],
-    "Prof W.": ["Hmmm... Ah yes.. No... Oh Hi <name> I didn't saw you!", "YES IT WORKS!"]
+    "Prof W.":{
+      "Standard": ["Hmmm... Ah yes.. No... Oh Hi <name> I didn't saw you!", "YES IT WORKS!"],
+      "Tips": {
+        "Day 1": {
+          "Szene 1": "Go to Prof W"
+        }
+      }
+    } 
   }
 }
 
