@@ -14,3 +14,33 @@ For the story progress a  JSON file will save how far the progress is with each 
 ```
 
 The story progrss will be saved as an integer which will be incremented, when there is story progress. The JSON is divided into the different plots, which then can be updated in parallel. When the story has forks the integer can be set to a specific value instead of just incrementing it. This allows for complex storylines but there will be a need for a complex story board where the story is plotted out.
+---
+
+For easier implementation i would suggest the following: 
+```JSON
+
+{
+  "GameState": {
+    "DialogTree": {
+      "Day": "Day 1",
+      "Szene": "Szene 1",
+    },
+    "Location": {
+      "Map": "Arkham New Campus",
+      "Coordinates": "? If thats possible otherwise just standard spawn of Map"
+    },
+    "State": "Roaming"
+  }
+}
+
+```
+State Enum:
+```JSON
+[
+    "Roaming",
+    "Battle",
+    "Dialog",
+    "Paused",
+    "Inactive",
+]
+```
