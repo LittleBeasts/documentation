@@ -1,5 +1,5 @@
 ## Flea Market Streetview
-![Streetview](https://github.com/LittleBeasts/documentation/blob/aed1c8197ec6fe588b4cc19c37b4e777a459a967/basicconcepts/theworld/arkhamSketches/FleaMarket/Flea%20Market%20Sketch.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
+![Streetview](https://github.com/LittleBeasts/documentation/blob/aed1c8197ec6fe588b4cc19c37b4e777a459a967/basicconcepts/theworld/arkhamSketches/FleaMarket/Flea%20Market%20Sketch.png)
 1. Empty House
 2. Warehouse
 3. Stairs
