@@ -14,6 +14,8 @@
 12. Sewers
 13. Promenade
 
+## Lois' Import & Export
+
 ![Lois' Import & Export](https://github.com/LittleBeasts/documentation/blob/a30088a16d24e3c1d5f3728899806ea4aa470935/basicconcepts/theworld/arkhamSketches/FleaMarket/Lois%20Import%20&%20Export.png)
 1. Door to the street
 2. Cabinets
