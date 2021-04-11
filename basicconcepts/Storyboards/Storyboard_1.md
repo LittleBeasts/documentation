@@ -3,7 +3,7 @@ optional cutscene Prelude
 
 ## Day 1
 ---
-### Szene 1 - At Home
+### Scene 1 - At Home
 ---
 Protagonist wakes up and starts into the day.
 They stand next to their bed and talk to their pet.
@@ -19,7 +19,7 @@ Player can explore
 
 Player starts in a small dorm room on the new campus.
 
-### Szene 2 - At the Proffesors Office
+### Scene 2 - At the Proffesors Office
 ---
 Protagonist in the office.<br>
 P: "Hello Proffesor!"<br>
