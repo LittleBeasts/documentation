@@ -4,7 +4,7 @@
 
 1. Empty warehouse
 2. Factory
-3. Abandones w
+3. Abandoned warehouse
 4. Strange factory
 5. Roadblock because of meteorite
 6. Pipes blocking the way
