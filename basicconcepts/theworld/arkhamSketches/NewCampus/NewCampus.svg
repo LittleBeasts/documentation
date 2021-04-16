@@ -14,7 +14,10 @@
    version="1.1"
    id="SVGRoot"
    sodipodi:docname="NewCampus.svg"
-   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+   inkscape:version="1.0.2 (1.0.2+r75+1)"
+   inkscape:export-filename="/media/leon/Data/Documents/littleBeastsProject/documentation/basicconcepts/theworld/arkhamSketches/NewCampus/NewCampus.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs898">
     <symbol
@@ -35,16 +38,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="2018.9279"
+     inkscape:cx="1597.6943"
      inkscape:cy="1034.4715"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="2560"
-     inkscape:window-height="1417"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="2488"
+     inkscape:window-height="1387"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata901">
@@ -54,7 +57,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
