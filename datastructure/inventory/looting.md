@@ -8,17 +8,6 @@ The Loottable could look something like this:
         "#rarity": {
             "label": "string: labels the items cotained in this object, e.g: SPECIAL, RARE,...",
             "probability": "general propability for all items inside category",
-            "items": [
-                {
-                    "id": "unique: identifies the item",
-                    "name": "Ingame display name",
-                    "description": "Describes what the item can do and what it is",
-                    "dependencys": ["boolean Array which determines if the conditions for finding the item are fulfilled"],
-                    "probability": "int: determines how likely it is to find the item in %",
-                    "effects": "unique: What Effects does this item have if it get's used?",
-                    "usage": "determines if the item is a consumable, a static item for buffing or a story related item"
-                }
-            ]
         }
     },
     "containerTable": {

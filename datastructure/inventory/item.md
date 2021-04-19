@@ -10,17 +10,49 @@ String name
 
 String spriteName
 
-boolean consumable
-
 boolean equipped
 
 boolean unique
 
-Enum armor {Armor.Shoulders, Armor.Weapen...}
+Enum type {ShoulderArmor, Weapon, Consumable...}
 
 int amount
 
 int amountOfUses (durability)
 
 int[] bonusStats [healthPoints, speed, stamina, attack, defense, critBonus]
+
+String description
+
+Enum effects {UNLIMITED_POWER}
 ```
+
+Now that we have a basic structure for items, which we can use in game. We need a place to store all the available Items and their attributes. This will be achieved by the following JSON file:
+
+```JSON
+{
+    "item": {
+        "name": "item_name",
+        "spriteName": "sprite_name",
+        "type": "item_type",
+        "uses": 64,
+        "bonusStats": ["healthPoints", "speed", "stamina", "attack", "defense", "critBonus"],
+        "unique": true,
+        "description":"item_description",
+        "effects":"item_effect",
+        "rarity":"RARE"
+    },
+    "ring": {
+        "name": "golden Ring",
+        "spriteName": "sprite_golden_ring",
+        "type": "Jewelry",
+        "uses": 64,
+        "bonusStats": [100, 100, 100, 100, 100, 100],
+        "unique": true,
+        "description":"Ash nazg durbatulûk, ash nazg gimbatul, ash nazg thrakatulûk, agh burzum-ishi krimpatul. One Ring to rule them all, One ring to find them; One ring to bring them all and in the darkness bind them.",
+        "effects":"UNLIMITIED_POWER",
+        "rarity":"LEGENDARY"
+    }
+}
+```
+Note that some attributes of Items aren't stored in the Itemclass of the Calculation Engine, e.g rarity, because they aren't of effect for the player, once they aquired the item. These Stats will only be used while generating the Players loot. Which is described in [looting.md](https://github.com/LittleBeasts/documentation/blob/master/datastructure/inventory/looting.md)
