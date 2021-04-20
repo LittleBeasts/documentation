@@ -12,3 +12,4 @@
 9. Catacombs
 10. Park
 11. Way to Industrial Area
+12. Fallen Tree
