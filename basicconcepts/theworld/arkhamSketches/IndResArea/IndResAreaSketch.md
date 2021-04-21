@@ -1,6 +1,6 @@
 ### Residential Area Street View
 
-![Streetview](ResidentialArea.png)
+![Streetview](IndResAreaSketch.png)
 
 1. Public building
 2. Roadblock because of meteor
