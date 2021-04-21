@@ -10,3 +10,15 @@
 6. Pipes blocking the way
 7. Gate to the strange factory
 8. The fence seems to be damaged
+
+### Homeless Area Street View
+
+![Streetview](homeless.png)
+
+1. Homeless living area
+2. Stairway to Fleemarket
+3. Path to Industrial Area
+4. Dumpsters
+5. Trashed Car
+6. Factory
+7. Adandoned Warehouse
