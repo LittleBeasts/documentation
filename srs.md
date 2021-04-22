@@ -25,53 +25,45 @@
 
     -   [3. Specific Requirements](#3-specific-requirements)
 
-        -   [3.1 Functionality – Data Backend](#31-functionality--data-backend)
+        -   [3.1 Functionality](#31-functionality)
+            -   [3.1.1 Menus](#311-menus)
+            -   [3.1.2 Player Controls](#312-player-controls)
+            -   [3.1.3 Map Interactions](#313-map-interactions)
+            -   [3.1.4 Battle](#314-battle)
+        -   [3.2 Usability](#32-usability)
+            -   [3.2.1 Intuitive control-pattern](#321-intuitive-control-pattern)
+            -   [3.2.2 Control Mapping](#322-control-mapping)
+            -   [3.2.3 In-Game tutorial](#323-in-game-tutorial)
 
-            -   [3.1.1 Read data given over API endpoints](#311-read-data-given-over-api-endpoints)
-            -   [3.1.2 Parse data](#312-parse-data)
-            -   [3.1.3 Provide data](#313-provide-data)
+        -   [3.3 Reliability](#33-reliability)
 
-        -   [3.2 Usability](#33-usability)
+            -   [3.3.1 JAVA](#331-java)
+            -   [3.3.2 Local Application](#332-local-application)
 
-        -   [3.3 Reliability](#34-reliability)
+        -   [3.4 Performance](#34-performance)
 
-            -   [3.4.1 Availability](#341-availability)
-            -   [3.4.2 MTBF, MTTR](#342-mtbf-mttr)
-            -   [3.4.3 Accuracy](#343-accuracy)
-            -   [3.4.4 Bug classes](#344-bug-classes)
+            -   [3.4.1 GUI](#351-gui)
+            -   [3.4.2 Calculation Engine](#342-calculation-engine)
+            -   [3.4.3 Loading Times](#353-loading-times)
 
-        -   [3.4 Performance](#35-performance)
-
-            -   [3.5.1 Response time](#351-response-time)
-            -   [3.5.2 Throughput](#352-throughput)
-            -   [3.5.3 Capacity](#353-capacity)
-            -   [3.5.4 Resource utilization](#354-resource-utilization)
-
-        -   [3.5 Supportability](#36-supportability)
+        -   [3.5 Supportability](#35-supportability)
 
         -   [3.6 Design Constraints](#37-design-constraints)
-
-            -   [3.7.1 Development tools](#371-development-tools)
-            -   [3.7.2 Spring Boot](#372-spring-boot)
-            -   [3.7.3 ReactJS](#373-reactjs)
-            -   [3.7.4 Supported Platforms](#374-supported-platforms)
 
         -   [3.7 Online User Documentation and Help System Requirements](#38-online-user-documentation-and-help-system-requirements)
 
         -   [3.8 Purchased Components](#39-purchased-components)
 
-        -   [3.9 Interfaces](#310-interfaces)
+        -   [3.9 Interfaces](#39-interfaces)
 
-            -   [3.10.1 User Interfaces](#3101-user-interfaces)
-            -   [3.10.2 Hardware Interfaces](#3102-hardware-interfaces)
-            -   [3.10.3 Software Interfaces](#3103-software-interfaces)
-            -   [3.10.4 Communications Interfaces](#3104-communications-interfaces)
+            -   [3.9.1 User Interfaces](#391-user-interfaces)
+            -   [3.9.2 Hardware Interfaces](#392-hardware-interfaces)
+            -   [3.9.3 Software Interfaces](#393-software-interfaces)
+            -   [3.9.4 Communications Interfaces](#394-communications-interfaces)
 
-        -   [3.10 Licensing Requirements](#311-licensing-requirements)
+        -   [3.10 Licensing Requirements](#310-licensing-requirements)
 
-        -   [3.11 Legal, Copyright and other Notices](#312-legal-copyright-and-other-notices)
-
-        -   [3.12 Applicable Standards](#313-applicable-standards)
+        -   [3.11 Legal, Copyright and other Notices](#311-legal-copyright-and-other-notices)
 
     -   [4. Supporting Information](#4-supporting-information)
 
@@ -118,6 +110,11 @@ The game will be designed in pixel-art-style with animations for movements and f
 ### 2.2 Use Case Diagram
 <img src="https://raw.githubusercontent.com/LittleBeasts/documentation/master/useCases/diagrams/use_cases.png"/>
 
+[Use Case Attack](https://github.com/LittleBeasts/documentation/blob/master/useCases/useCaseAttack.md)
+
+[Use Case Catch](https://github.com/LittleBeasts/documentation/blob/master/useCases/useCaseCatch.md)
+
+
 ### 2.3 Product perspective
 This game will stand out from it's competators by bringing you a unique and unforgetable experience. The fighting system is one of a kind and completely engineered from the ground up. You'll be able to play the game the way you want. Wether you want to fight and catch or find friends and tame. It's completely up to you. The story will blow you away and keep you up long at night. Are you able to find out what happened in the world of littleBeasts. Are you strong and brave enough to handle them? Available as early as next year!
 
@@ -128,82 +125,44 @@ The game is targeted at users who like the dark and interesting world of H.P.Lov
 We have to support several operating-Systems: Linux and Windows. This will be achieved by using Java as our choice of implementation. For an easier and faster approach to game development we chose a new Java-game-engine, the Litiengine. It's espacially made for 2D-Tile-based games.
 
 ## 3. Specific Requirements
+TBD.
 
-### 3.1 Functionality 
-#### 3.1.1 Menus
+### 3.1 Functionality - Calculation Engine
 
-#### 3.1.2 Player Controls
+### 3.2 Functionality – User Interface
 
-#### 3.1.3 Map Interactions
+### 3.3 Usability
 
-#### 3.1.4 Battle
+### 3.4 Reliability
 
-[Use Case Attack](https://github.com/LittleBeasts/documentation/blob/master/useCases/useCaseAttack.md)
+### 3.5 Performance
 
-[Use Case Catch](https://github.com/LittleBeasts/documentation/blob/master/useCases/useCaseCatch.md)
+#### 3.5.1 Response time
 
-### 3.2 Usability
-#### 3.2.1 Intuitive control-pattern
-The game uses an appropriate control patter which can be easily understood by people who are used to the genre of RPGs.
-#### 3.2.2 Control Mapping
-In the game GUI the player can look up the mapping of the controls.
-#### 3.2.3 In-Game tutorial
-The basic controls will explained in an in-game tutorial.
+#### 3.5.4 Resource utilization
 
-### 3.3 Reliability
-#### 3.3.1 JAVA
-The application is as reliable as the JRE it runs on. 
-#### 3.3.2 Local Application
-All the standard content will run on the local machine, therefor the game will not be influence by any server downtime.
+### 3.6 Supportability
 
-### 3.4 Performance
-#### 3.4.1 GUI
-The basic look of the game with its low pixel densitiy will make it easy to render for any form of GPU. All of the drawing implementations are handles by the LITIEngine.
-#### 3.4.2 Calculation Engine
-For all in-game calculations the Calculation Engine is used. The processes are optimized for their use in the game.
+### 3.7 Design Constraints
 
-#### 3.4.3 Loading Times
-Loading of assets and maps are handled by the LITIEngine.
+#### 3.7.1 Development tools
 
-### 3.5 Supportability
-Due to the fact that the game is a JAVA-application it can run on any system that runs JAVA.
+#### 3.7.2 Litiengine
 
-### 3.6 Design Constraints
+#### 3.7.4 Supported Platforms
 
-### 3.7 Online User Documentation and Help System Requirements
-The application will have a in-game tutorial and a control overview.
+### 3.8 Online User Documentation and Help System Requirements
 
-### 3.8 Purchased Components
-The LITIEngine is an open-source framework, which is free to use as is the Tiled Mapeditor. Some of the pixel-art assets are purchased from itch.io. For specalized art-work free-lance services can be used. (Like Fivver)
+### 3.10 Interfaces
 
-### 3.9 Interfaces
+#### 3.10.1 User Interfaces
 
-#### 3.9.1 User Interfaces
-The user interface is generated with LITIEngine. There are multiple user interfaces, for instance the main menu, in-game menu and battle menu as is the map screen.
+#### 3.10.2 Hardware Interfaces
 
-#### 3.9.2 Hardware Interfaces
-As hardware interface LITIEngine implements keyboard handler to receive user input. There is also the possibility to use a gamepad.
+#### 3.10.3 Software Interfaces
 
-#### 3.9.3 Software Interfaces
-The JRE infaces with the OS to handle all game processes. 
+#### 3.10.4 Communications Interfaces
 
-#### 3.9.4 Communications Interfaces
-There is an communication interface in the online client for user to user chat.
+### 3.11 Licensing Requirements
 
-### 3.10 Licensing Requirements
-The application is licensed under the  MIT License.
-
-### 3.11 Legal, Copyright and other Notices
-
-## 4. Supporting Information
-
-For any further information you can contact the littleBeast team or check our blog. The team members are:
-
-    Andreas
-    Daniel
-    Lawand
-    Leon
-    [Contact Us](mailto:info.isstrackr@gmail.com)
-    
-
-
+### 3.12 Legal, Copyright and other Notices
