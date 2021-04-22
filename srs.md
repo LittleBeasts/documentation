@@ -117,7 +117,9 @@ The game will be designed in pixel-art-style with animations for movements and f
 
 ### 2.2 Use Case Diagram
 <img src="https://raw.githubusercontent.com/LittleBeasts/documentation/master/useCases/diagrams/use_cases.png"/>
+
 [Use Case Attack](https://github.com/LittleBeasts/documentation/blob/master/useCases/useCaseAttack.md)
+
 [Use Case Catch](https://github.com/LittleBeasts/documentation/blob/master/useCases/useCaseCatch.md)
 
 
