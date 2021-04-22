@@ -67,6 +67,7 @@
 
     -   [4. Supporting Information](#4-supporting-information)
 
+
 ## 1. Introduction
 ### 1.1 Purpose
 The purpose of this document is to present a detailed description of the littleBeast project. It will explain the features of the application, what the application will do and the constraints under which it must operate and how the application will react to external actions. This document is intended for both the stakeholders and the developers of the application.
@@ -110,11 +111,6 @@ The game will be designed in pixel-art-style with animations for movements and f
 ### 2.2 Use Case Diagram
 <img src="https://raw.githubusercontent.com/LittleBeasts/documentation/master/useCases/diagrams/use_cases.png"/>
 
-[Use Case Attack](https://github.com/LittleBeasts/documentation/blob/master/useCases/useCaseAttack.md)
-
-[Use Case Catch](https://github.com/LittleBeasts/documentation/blob/master/useCases/useCaseCatch.md)
-
-
 ### 2.3 Product perspective
 This game will stand out from it's competators by bringing you a unique and unforgetable experience. The fighting system is one of a kind and completely engineered from the ground up. You'll be able to play the game the way you want. Wether you want to fight and catch or find friends and tame. It's completely up to you. The story will blow you away and keep you up long at night. Are you able to find out what happened in the world of littleBeasts. Are you strong and brave enough to handle them? Available as early as next year!
 
@@ -125,44 +121,80 @@ The game is targeted at users who like the dark and interesting world of H.P.Lov
 We have to support several operating-Systems: Linux and Windows. This will be achieved by using Java as our choice of implementation. For an easier and faster approach to game development we chose a new Java-game-engine, the Litiengine. It's espacially made for 2D-Tile-based games.
 
 ## 3. Specific Requirements
-TBD.
 
-### 3.1 Functionality - Calculation Engine
+### 3.1 Functionality 
+#### 3.1.1 Menus
 
-### 3.2 Functionality – User Interface
+#### 3.1.2 Player Controls
 
-### 3.3 Usability
+#### 3.1.3 Map Interactions
 
-### 3.4 Reliability
+#### 3.1.4 Battle
 
-### 3.5 Performance
+[Use Case Attack](https://github.com/LittleBeasts/documentation/blob/master/useCases/useCaseAttack.md)
 
-#### 3.5.1 Response time
+[Use Case Catch](https://github.com/LittleBeasts/documentation/blob/master/useCases/useCaseCatch.md)
 
-#### 3.5.4 Resource utilization
+### 3.2 Usability
+#### 3.2.1 Intuitive control-pattern
+The game uses an appropriate control patter which can be easily understood by people who are used to the genre of RPGs.
+#### 3.2.2 Control Mapping
+In the game GUI the player can look up the mapping of the controls.
+#### 3.2.3 In-Game tutorial
+The basic controls will explained in an in-game tutorial.
 
-### 3.6 Supportability
+### 3.3 Reliability
+#### 3.3.1 JAVA
+The application is as reliable as the JRE it runs on. 
+#### 3.3.2 Local Application
+All the standard content will run on the local machine, therefor the game will not be influence by any server downtime.
 
-### 3.7 Design Constraints
+### 3.4 Performance
+#### 3.4.1 GUI
+The basic look of the game with its low pixel densitiy will make it easy to render for any form of GPU. All of the drawing implementations are handles by the LITIEngine.
+#### 3.4.2 Calculation Engine
+For all in-game calculations the Calculation Engine is used. The processes are optimized for their use in the game.
 
-#### 3.7.1 Development tools
+#### 3.4.3 Loading Times
+Loading of assets and maps are handled by the LITIEngine.
 
-#### 3.7.2 Litiengine
+### 3.5 Supportability
+Due to the fact that the game is a JAVA-application it can run on any system that runs JAVA.
 
-#### 3.7.4 Supported Platforms
+### 3.6 Design Constraints
 
-### 3.8 Online User Documentation and Help System Requirements
+### 3.7 Online User Documentation and Help System Requirements
+The application will have a in-game tutorial and a control overview.
 
-### 3.10 Interfaces
+### 3.8 Purchased Components
+The LITIEngine is an open-source framework, which is free to use as is the Tiled Mapeditor. Some of the pixel-art assets are purchased from itch.io. For specalized art-work free-lance services can be used. (Like Fivver)
 
-#### 3.10.1 User Interfaces
+### 3.9 Interfaces
 
-#### 3.10.2 Hardware Interfaces
+#### 3.9.1 User Interfaces
+The user interface is generated with LITIEngine. There are multiple user interfaces, for instance the main menu, in-game menu and battle menu as is the map screen.
 
-#### 3.10.3 Software Interfaces
+#### 3.9.2 Hardware Interfaces
+As hardware interface LITIEngine implements keyboard handler to receive user input. There is also the possibility to use a gamepad.
 
-#### 3.10.4 Communications Interfaces
+#### 3.9.3 Software Interfaces
+The JRE infaces with the OS to handle all game processes. 
 
-### 3.11 Licensing Requirements
+#### 3.9.4 Communications Interfaces
+There is an communication interface in the online client for user to user chat.
 
-### 3.12 Legal, Copyright and other Notices
+### 3.10 Licensing Requirements
+The application is licensed under the  MIT License.
+
+### 3.11 Legal, Copyright and other Notices
+
+## 4. Supporting Information
+
+For any further information you can contact the littleBeast team or check our blog. The team members are:
+
+    Andreas
+    Daniel
+    Lawand
+    Leon
+    [Contact Us](mailto:info.isstrackr@gmail.com)
+    
