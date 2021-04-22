@@ -95,24 +95,24 @@ different aspects of the system.  It is intended to capture and convey
 the significant architectural decisions which have been made on the
 system.
 
-[This section defines the purpose of the **Software Architecture
-Document**, in the overall project documentation, and briefly describes
-the structure of the document. The specific audiences for the document
-should be identified, with an indication of how they are expected to use
-the document.]
-
 ##### 1.2 Scope
 
-[A brief description of what the Software Architecture Document applies
-to; what is affected or influenced by this document.]
+This document describes the architecture of the littleBeast application, which consists of:
+- GUI (implements LITIEngine Framework)
+- Calculation Engine
 
 ##### 1.3 Definitions, Acronyms and Abbreviations
 
-[This subsection should provide the definitions of all terms, acronyms,
-and abbreviations required to properly interpret the **Software
-Architecture Document**.  This information may be provided by reference
-to the project Glossary.]
 
+| Term     |                                     |
+| -------- | ----------------------------------- |
+| **SRS**  | Software Requirements Specification |
+| **GUI**  | Graphical User Interface            |
+| **CE**   | Calculation Engine                  |
+| **JRE**  | JAVA Runtime Environment            |
+| **tbd**  | to be determined                    |
+| **n/a**  | not applicable                      |
+| **UC**   | Use Case                            |
 ##### 1.4 References
 
 [This subsection should provide a complete list of all documents
@@ -130,30 +130,40 @@ Architecture Document** is organized.]
 
 #### 2. Architectural Representation
 
-[This section describes what software architecture is for the current
-system, and how it is represented. Of the **Use-Case**, **Logical**,
-**Process**, **Deployment**, and **Implementation Views**, it enumerates
-the views that are necessary, and for each view, explains what types of
-model elements it contains.]
+[High level architecture](https://github.com/LittleBeasts/documentation/blob/549c2c89603a0edcc014ccb598b89efffed1a972/sad_high_level_architecture.png)
+
+The backend consists of the CE which handles all logic processes. 
+All GUI elements are created and rendered through the frontend which implements LITIEngine functionality. 
+The controller receives the user inputs from the frontend and interacts with the backend.
 
 #### 3. Architectural Goals and Constraints
 
-[This section describes the software requirements and objectives that
-have some significant impact on the architecture, for example, safety,
-security, privacy, use of an off-the-shelf product, portability,
-distribution, and reuse. It also captures the special constraints that
-may apply: design and implementation strategy, development tools, team
-structure, schedule, legacy code, and so on.]
+##### 3.1 Off-the-shelf product
+In the project most of graphical implementation is handled with LITIEngine. This includes but is not limited to: 
+- Camera control
+- Loading and displaying maps and other graphic assets (e.g. charater sprites)
+- Animation control
+- Menus
+
+##### 3.2 Distribution
+LITIEngine support distribution via Steam.
+
+##### 3.3 Development Tools
+- IntelliJ
+- GitHub
+- LITIEngine
+- UtiLITI
+- Tiled
+- Maven
+- Cucumber
 
 #### 4. Use-Case View
 
-[This section lists use cases or scenarios from the use-case model if
-they represent some significant, central functionality of the final
-system, or if they have a large architectural coverage - they exercise
-many architectural elements, or if they stress or illustrate a specific,
-delicate point of the architecture.]
+<img src="https://raw.githubusercontent.com/LittleBeasts/documentation/master/useCases/diagrams/use_cases.png"/>
 
 ##### 4.1 Use-Case Realizations
+
+tbd
 
 [This section illustrates how the software actually works by giving a
 few selected use-case (or scenario) realizations, and explains how the
@@ -236,22 +246,5 @@ constraints.]
 
 #### 11. Quality
 
-[A description of how the software architecture contributes to all
-capabilities (other than functionality) of the system: extensibility,
-reliability, portability, and so on. If these characteristics have
-special significance, for example safety, security or privacy
-implications, they should be clearly delineated.]
-
-![](https://sce.uhcl.edu/helm/RationalUnifiedProcess/applet/images/artfc_w.gif)
-[Artifacts](https://sce.uhcl.edu/helm/RationalUnifiedProcess/process/artifact/ovu_arts.htm)
-\>
-![](https://sce.uhcl.edu/helm/RationalUnifiedProcess/applet/images/artfc_y.gif)
-[Analysis & Design Artifact
-Set](https://sce.uhcl.edu/helm/RationalUnifiedProcess/process/artifact/ars_dsg.htm)
-\>
-![](https://sce.uhcl.edu/helm/RationalUnifiedProcess/applet/images/ar_doc.gif)
-[Software Architecture
-Document](https://sce.uhcl.edu/helm/RationalUnifiedProcess/process/artifact/ar_sadoc.htm)
-\>
-![](https://sce.uhcl.edu/helm/RationalUnifiedProcess/applet/images/ie.gif)
-rup\_sad.htm
+Our architecture will provide a framework to easily implement the story of the game. All content can be altered and extended through JSON-Files and designwork in Tiled/UtiLITI so there is no need to code in JAVA.
+In order to archive the best possible maintainability the application underlies a continous refactoring process.
