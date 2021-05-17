@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.littleBeasts.actionMenu.BattleMenu</OriginalElement>
+  <nodes>
+    <node x="335.9999999999999" y="1024.0">com.littleBeasts.guiComponent.DrawHud</node>
+    <node x="299.0" y="591.0">com.littleBeasts.actionMenu.AttackMenu</node>
+    <node x="303.9999999999999" y="741.0">com.littleBeasts.actionMenu.BattleMenu</node>
+    <node x="646.0" y="591.0">com.littleBeasts.actionMenu.CatchMenu</node>
+    <node x="0.0" y="591.0">com.littleBeasts.actionMenu.ItemMenu</node>
+    <node x="462.55882352941177" y="0.0">com.littleBeasts.actionMenu.ActionMenu</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.littleBeasts.actionMenu.ItemMenu" target="com.littleBeasts.actionMenu.ActionMenu" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="139.5" y="566.0" />
+      <point x="605.5588235294117" y="566.0" />
+      <point x="0.0" y="270.5" />
+    </edge>
+    <edge source="com.littleBeasts.actionMenu.BattleMenu" target="com.littleBeasts.actionMenu.ItemMenu" relationship="CREATE">
+      <point x="-140.142857142857" y="-116.5" />
+      <point x="327.3571428571429" y="720.0" />
+      <point x="69.75" y="720.0" />
+      <point x="-69.75" y="39.0" />
+    </edge>
+    <edge source="com.littleBeasts.actionMenu.BattleMenu" target="com.littleBeasts.actionMenu.CatchMenu" relationship="CREATE">
+      <point x="46.714285714285836" y="-116.5" />
+      <point x="514.2142857142858" y="700.0" />
+      <point x="715.75" y="700.0" />
+      <point x="-69.75" y="39.0" />
+    </edge>
+    <edge source="com.littleBeasts.actionMenu.CatchMenu" target="com.littleBeasts.actionMenu.ActionMenu" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="785.5" y="566.0" />
+      <point x="605.5588235294117" y="566.0" />
+      <point x="0.0" y="270.5" />
+    </edge>
+    <edge source="com.littleBeasts.guiComponent.DrawHud" target="com.littleBeasts.actionMenu.BattleMenu" relationship="TO_ONE">
+      <point x="65.75000000000006" y="-149.5" />
+      <point x="533.2499999999999" y="999.0" />
+      <point x="549.25" y="999.0" />
+      <point x="81.75000000000006" y="116.5" />
+    </edge>
+    <edge source="com.littleBeasts.actionMenu.BattleMenu" target="com.littleBeasts.actionMenu.ItemMenu" relationship="TO_ONE">
+      <point x="-93.42857142857127" y="-116.5" />
+      <point x="374.0714285714286" y="710.0" />
+      <point x="209.25" y="710.0" />
+      <point x="69.75" y="39.0" />
+    </edge>
+    <edge source="com.littleBeasts.actionMenu.BattleMenu" target="com.littleBeasts.actionMenu.CatchMenu" relationship="TO_ONE">
+      <point x="93.4285714285715" y="-116.5" />
+      <point x="560.9285714285713" y="710.0" />
+      <point x="855.25" y="710.0" />
+      <point x="69.75" y="39.0" />
+    </edge>
+    <edge source="com.littleBeasts.guiComponent.DrawHud" target="com.littleBeasts.actionMenu.BattleMenu" relationship="CREATE">
+      <point x="-65.74999999999994" y="-149.5" />
+      <point x="401.7499999999999" y="999.0" />
+      <point x="385.7499999999999" y="999.0" />
+      <point x="-81.75" y="116.5" />
+    </edge>
+    <edge source="com.littleBeasts.actionMenu.BattleMenu" target="com.littleBeasts.actionMenu.ActionMenu" relationship="GENERALIZATION">
+      <point x="140.14285714285717" y="-116.5" />
+      <point x="607.6428571428571" y="720.0" />
+      <point x="935.5" y="720.0" />
+      <point x="935.5" y="566.0" />
+      <point x="605.5588235294117" y="566.0" />
+      <point x="0.0" y="270.5" />
+    </edge>
+    <edge source="com.littleBeasts.actionMenu.BattleMenu" target="com.littleBeasts.actionMenu.AttackMenu" relationship="CREATE">
+      <point x="-46.71428571428561" y="-116.5" />
+      <point x="420.7857142857143" y="720.0" />
+      <point x="380.75" y="720.0" />
+      <point x="-81.75" y="39.0" />
+    </edge>
+    <edge source="com.littleBeasts.actionMenu.BattleMenu" target="com.littleBeasts.actionMenu.AttackMenu" relationship="TO_ONE">
+      <point x="1.1368683772161603E-13" y="-116.5" />
+      <point x="467.5" y="690.0" />
+      <point x="544.25" y="690.0" />
+      <point x="81.75" y="39.0" />
+    </edge>
+    <edge source="com.littleBeasts.actionMenu.AttackMenu" target="com.littleBeasts.actionMenu.ActionMenu" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="462.5" y="566.0" />
+      <point x="605.5588235294117" y="566.0" />
+      <point x="0.0" y="270.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7" showDependencies="true" x="595.4155844155846" y="613.5714285714287" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
