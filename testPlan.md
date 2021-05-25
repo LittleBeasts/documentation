@@ -254,16 +254,14 @@ As you define each aspect of the approach, you should update section 10, Respons
 
 #### 5.2.2 Functional Testing
 
-[Function testing of the target-of-test should focus on any requirements for test that can be traced directly to use cases or business functions and business rules. The goals of these tests are to verify proper data acceptance, processing, and retrieval, and the appropriate implementation of the business rules. This type of testing is based upon black box techniques; that is, verifying the application and its internal processes by interacting with the application via the Graphical User Interface (GUI) and analyzing the output or results. The following table identifies an outline of the testing recommended for each application.]
-
+In our project, Functional Testing refers to Unit Testing. The JUnit tests are meant to cover the essential functionalities in our "Calculation Engine" (backend) and our Frontend to ensure functionality and integrity. The test cases will be run automatically by a pipeline before the code can be merged with the "development" branch to verify the functionality of the tests.
 |                       | Description                                                         |
 |-----------------------|---------------------------------------------------------------------|
-|Technique Objective    |  [Exercise target-of-test functionality, including navigation, data entry, processing, and retrieval to observe and log target behavior.]  |
-|Technique              |  [Exercise each use-case scenario's individual use-cases flows or functions and features, using valid and invalid data, to verify that:; the expected results occur when valid data is used; the appropriate error or warning messages are displayed when invalid data is used; each business rule is properly applied]  |
-|Oracles                |  [Outline one or more strategies that can be used by the technique to accurately observe the outcomes of the test. The oracle combines elements of both the method by which the observation can be mad, and the characteristics of specific outcome that indicate probable success or failure. Ideally, oracles will be self-verifying, allowing automated tests to make an initial assessment of test pass or failure, however, be careful to mitigate the risks inherent in automated results determination.]  |
-|Required Tools         |  [The technique requires the following tools:; Test Script Automation Tool; base configuration imager and restorer; backup and recovery tools; installation-monitoring tools (registry, hard disk, CPU, memory, and so on); data-generation tools]  |
-|Success Criteria       |  [The technique supports the testing of:; all key use-case scenarios; all key features ] |
-|Special Considerations |  [Identify or describe those items or issues (internal or external) that impact the implementation and execution of function test.]  |
+|Technique Objective    |  Our Calculation Engine is responsible for the core logic of the game. It ensures that essential functionalities like the damage calculation, the inventory management and the abilities work reliable and efficient. These functionalities are the core of our project, and it is therefore of utmost importance to thoroughly test the related methods. Since games are not all about calculations and logic, our frontend is responsible for handling all environment related interactions like the movement of objects and the character interaction. The functionality of the frontend will be validated with unit tests as far as possible as well. |
+|Oracles                |  In order to verify the functionality, the calculations will be tested to ensure that the results are in the expected range of values.  |
+|Required Tools         |  JUnit4 dependency in combination with Mockito |
+|Success Criteria       |  All key calculation should be covered by Unit Tests. Every written test must function properly. |
+|Special Considerations |  -  |
 
 #### 5.2.3 Business Cycle Testing
 
@@ -280,16 +278,28 @@ As you define each aspect of the approach, you should update section 10, Respons
 
 #### 5.2.4 User Interface Testing
 
-[User Interface (UI) testing verifies a user's interaction with the software. The goal of UI testing is to ensure that the UI provides the user with the appropriate access and navigation through the functions of the target-of-test. In addition, UI testing ensures that the objects within the UI function as expected and conform to corporate, or industry, standards.]
+##### Automated Unser Interface Testing
 
 |                       | Description                                                         |
 |-----------------------|---------------------------------------------------------------------|
-|Technique Objective    |  [Exercise the following to observe and log standards conformance and target behavior:; Navigation through the target-of-test reflecting business functions and requirements, including window-to-window, field-to- field, and use of access methods (tab keys, mouse movements, accelerator keys).; Window objects and characteristics can be exercised-such as menus, size, position, state, and focus.]   |
-|Technique              |  [Create or modify tests for each window to verify proper navigation and object states for each application window and object.]   |
-|Oracles                |  [Outline one or more strategies that can be used by the technique to accurately observe the outcomes of the test. The oracle combines elements of both; the method by which the observation can be made and the characteristics of specific outcome that indicate probable success or failure. Ideally, oracles will be self-verifying, allowing automated tests to make an initial assessment of test pass or failure, however, be careful to mitigate the risks inherent in automated results determination.]   |
-|Required Tools         |   [The technique requires the Test Script Automation Tool.]  |
-|Success Criteria       |   [The technique supports the testing of each major screen or window that will be used extensively by the end user.]  |
-|Special Considerations |   [Not all properties for custom and third party objects can be accessed.]  |
+|Technique Objective    |  User input in games cam sometimes hardly be simulated in unit tests. For that reason, the basic use cases of our frontend will be covered by Cucumber Interface tests which can be run automatically to simulate the user input and verify the result with the help of different game states.  |
+|Technique              |  All basic interface related use cases will be covered with Cucumber tests as far as possible. |
+|Oracles                |  Different environments of our game are bound to game states which can be accessed and verified to make sure that the interaction results in the expected result. Scene changes can be tracked by checking the current map which is active.  |
+|Required Tools         |  Cucumber dependency |
+|Success Criteria       |  All Cucumber tests have to pass.  |
+|Special Considerations |  - |
+
+
+##### Manual Unser Interface Testing
+
+|                       | Description                                                         |
+|-----------------------|---------------------------------------------------------------------|
+|Technique Objective    |  Even though the functionalities of the game work properly, errors in the design of maps or in interaction can occur. In order to eliminate such errors, users will test the game manually and return feedback relating to potential bugs.  |
+|Technique              |  Several users will explore the world of littleBeasts, trying to break anything they find and reporting the results afterwards.  |
+|Oracles                |  List of results of the user testing. Positive or negative feedback.  |
+|Required Tools         |  Fully functional game which can be installed and run, so that the users are able to test properly. |
+|Success Criteria       |  Positive Feedback with seconds tests of bigger bugs and verification by the developers.  |
+|Special Considerations |  -  |
 
 #### 5.2.5 Performance Profiling
 
