@@ -22,14 +22,14 @@ Player starts in a small dorm room on the new campus.
 ### Scene 2 - At the Proffesors Office
 ---
 Protagonist in the office.<br>
-P: "Hello Proffesor!"<br>
+P: "Hello Professor!"<br>
 Prof W.: "Hello *name*, did you find some rest?"<br>
 P: "I couldn't say... I had this dream again."<br>
 Prof W.: "..."<br>
 P: "Didn't we do everything as it is written in the books? Why won't "they" leave me alone.<br>
 Prof W.: "..."<br>
-P: "Proffesor? Don't tell me it was all for nothing!!"<br>
-Prof W.: "No need to be overly dramatic, we did everything right. You need to give it more time, your soul hasn't relized the new situation yet."<br>
+P: "Professor? Don't tell me it was all for nothing!!"<br>
+Prof W.: "No need to be overly dramatic, we did everything right. You need to give it more time, your soul hasn't realized the new situation yet."<br>
 P: "What should I do?"<br>
 Prof W.: "I have a small task for you, this will surely lift up your spirits."<br>
 P: "Nods"<br>
@@ -44,14 +44,14 @@ On the way from New Campus to the City there is rough terrain where Little Beast
 
 ### Scene 3 - Flea Market
 ---
-Flea Market is a busy street in the Arkham habour district. Here you can find fresh fish and other not so legal goods.
+Flea Market is a busy street in the Arkham harbour district. Here you can find fresh fish and other not so legal goods.
 
 Louis has her own little Store called Ls Import and Export.
 
 Lois: "How can I help you honey? You seem lost."<br>
 P: "Are you Lois?"<br>
 Lois: "The one and only, who is asking?"<br>
-P: "I'm *name*, Proffesor Weintraub has sent me to get an "item".<br>
+P: "I'm *name*, Professor Weintraub has sent me to get an "item".<br>
 Lois: "You work with that old geezer? My condolences. But business is business. Yeah I heard chatter on the streets that someone is willing to surrender it for the right price.<br>
 P: "And what would that price be?"<br>
 Lois "A piece of the meteor of course, that's is all the rage right now."<br>
@@ -105,7 +105,7 @@ Lois: "Of course I do. But it comes at a price. Catch me on of those Beasts and 
 
 She gives you a cage. (Perhaps catching tutorial)
 
-After Protagonist cought the beast you can give it to Lois to get the "Sewer Key"
+After Protagonist caught the beast you can give it to Lois to get the "Sewer Key"
 
 You can enter the sewers now. Sewer is a dungeon which contains a high amount of Little Beasts.
 At the end of one of the paths there is the Bottle it is engraved.
@@ -150,7 +150,7 @@ You can ask Lois where the Professor is.
 ### Scene 1
 ---
 Lois: "You look dreadfull hon, what happened"<br>
-P: "I can't find the Proffesor, do you have an idea where he could be?"<br>
+P: "I can't find the Professor, do you have an idea where he could be?"<br>
 Lois: "We met today at the break of dawn, always a good time for a deal, not that there is a bad time to earn some money."<br>
 P: "Do you know where he went after that?"<br>
 Lois: "Not really. The old man said something about "only one thing is missing now" and then left."<br>
@@ -190,7 +190,7 @@ As you work your way down the crater you find the Agent.
 ### Scene 3 - The F.B.I.
 ---
 Agent Scully: "What are you doing here, do you work with that lunatic old geezer?"<br>
-P: "Have you seen the Profssor"<br>
+P: "Have you seen the Professor"<br>
 Agent Scully: "Do I look like someone who cares about the academic title of someone who attacks me?!?"<br>
 P: "What do you mean?"<br>
 Agent Scully: "The old fart came up to me and hit me on the head, next thing I knew we were down here and he cut my arm with a strange knife, said something and this doorway opened."<br>
@@ -212,7 +212,7 @@ Prof. W.: "As soon as I heard of your dreams, I knew it had to be you!"<br>
 P: "Professor? What are you talking about?"<br>
 Prof. W.: "Come here my child, fullfill your destiny!"<br>
 P walks forcibly to the shrine<br>
-P: "Proffesor, why can't I stop?"<br>
+P: "Professor, why can't I stop?"<br>
 Prof. W.: "We will end it here, right now. Believe me, it will be great."<br>
 P is almost at the shrine.<br>
 Cat: "Meow!!"<br>
