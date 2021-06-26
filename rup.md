@@ -114,7 +114,7 @@ In the following sections the aspects Architectural Representation, Architectura
 
 #### 2. Architectural Representation
 High level architecture:
-<embed  src="https://github.com/LittleBeasts/documentation/blob/master/ProjectStructure.pdf"/>
+<embed  src="https://github.com/LittleBeasts/documentation/blob/master/ProjectStructure.pdf" width="800px" height="2100px"/>
 The backend consists of the CE which handles all logic processes. 
 All GUI elements are created and rendered through the frontend which implements LITIEngine functionality. 
 The controller receives the user inputs from the frontend and interacts with the backend.
