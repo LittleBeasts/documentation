@@ -38,15 +38,15 @@ Table of Contents
 
 [2. Architectural Representation](#2architectural-representation)
 
-[3.Architectural Goals and Constraints](#3architectural-goals-and-constraints)   
+[3. Architectural Goals and Constraints](#3architectural-goals-and-constraints)   
 
 [3.1 Off the Shelf Product](#31-off-the-shelf-product)
 
 [3.2 Distribution](#32-distribution)
 
-[3.3 developmenttools](#33-development-tools)
+[3.3 Development Tools](#33-development-tools)
 
-[4.Use-Case View](#4use-case-view)
+[4. Use-Case View](#4use-case-view)
 
 [4.1 Use-Case Realizations](#41-use-case-realizations)     
 
@@ -70,8 +70,10 @@ Table of Contents
 
 [10. Size and Performance](#10size-and-performance)               
 
-[11. Quality](#11-quality)       
+[11. Quality](#11-quality)      
+
 [11.1 Pattern](#111-pattern)  
+
 [11.2 Metrics](#112-metrics)  
 
 \
