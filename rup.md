@@ -153,19 +153,13 @@ Our Project is seperated into two parts:
 * LittleBeasts: this part handles the graphical representation and interaction of the player with the game.
 
 ##### 5.1 Overview
-
-[This subsection describes the overall decomposition of the design model
-in terms of its package hierarchy and layers.]
+In our implementation the code is organized in packages for every functionality (e.g. Battle Menus, Game Logic, GUI Components, Entities).
 
 ##### 5.2 Architecturally Significant Design Packages
 
 [For each significant package, include a subsection with its name, its
 brief description, and a diagram with all significant classes and
 packages contained within the package.
-
-For each significant class in the package, include its name, brief
-description, and, optionally a description of some of its major
-responsibilities, operations and attributes.]
 
 #### 6. Process View
 
