@@ -156,27 +156,15 @@ Our Project is seperated into two parts:
 In our implementation the code is organized in packages for every functionality (e.g. Battle Menus, Game Logic, GUI Components, Entities).
 
 ##### 5.2 Architecturally Significant Design Packages
-This gives an overview of the different functional packages, their classes and the dependencies between them.
-[Package Diagram](https://raw.githubusercontent.com/LittleBeasts/documentation/4a251d4ac08bcbb98102a979677950601a18280a/classdiagrams/ClassDiagram.svg)
+This [diagram](https://raw.githubusercontent.com/LittleBeasts/documentation/4a251d4ac08bcbb98102a979677950601a18280a/classdiagrams/ClassDiagram.svg) gives an overview of the different functional packages, their classes and the dependencies between them.
 
 #### 6. Process View
 
-[This section describes the system's decomposition into lightweight
-processes (single threads of control) and heavyweight processes
-(groupings of lightweight processes). Organize the section by groups of
-processes that communicate or interact. Describe the main modes of
-communication between processes, such as message passing, interrupts,
-and rendezvous.]
+(n/a)
 
 #### 7. Deployment View
 
-[This section describes one or more physical network (hardware)
-configurations on which the software is deployed and run. It is a view
-of the Deployment Model. At a minimum for each configuration it should
-indicate the physical nodes (computers, CPUs) that execute the software,
-and their interconnections (bus, LAN, point-to-point, and so on.) Also
-include a mapping of the processes of the **Process View** onto the
-physical nodes.]
+Due to the java architecture used in the development, the game can be deployed on every viable computer with JRE
 
 #### 8. Implementation View
 ![](https://github.com/LittleBeasts/documentation/blob/master/classDiagram.svg)
