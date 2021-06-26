@@ -156,10 +156,8 @@ Our Project is seperated into two parts:
 In our implementation the code is organized in packages for every functionality (e.g. Battle Menus, Game Logic, GUI Components, Entities).
 
 ##### 5.2 Architecturally Significant Design Packages
-
-[For each significant package, include a subsection with its name, its
-brief description, and a diagram with all significant classes and
-packages contained within the package.
+This gives an overview of the different functional packages, their classes and the dependencies between them.
+[Package Diagram](https://raw.githubusercontent.com/LittleBeasts/documentation/4a251d4ac08bcbb98102a979677950601a18280a/classdiagrams/ClassDiagram.svg)
 
 #### 6. Process View
 
