@@ -24,13 +24,13 @@ parent: Project management
 
 Table of Contents
 
-[1.Introduction](####Introduction)       
+[1.Introduction](#1-introduction)       
 
-[1.1 Purpose](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.1%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Purpose)     
+[1.1 Purpose](#11purpose)     
 
-[1.2 Scope](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.2%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Scope)     
+[1.2 Scope](#12-scope)     
 
-[1.3 Definitions, Acronyms and Abbreviations](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.3%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Definitions,%20Acronyms%20and%20Abbreviations)     
+[1.3 Definitions, Acronyms and Abbreviations](#13-definitions-acronyms-and-abbreviations)     
 
 [1.4 References](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.4%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20References)     
 
