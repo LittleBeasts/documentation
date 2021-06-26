@@ -1,4 +1,4 @@
-- [1. Specification - Edit profile](#1-use-case-specification-attack)
+- [1. Specification - Edit profile](#1-use-case-specification---attack)
     - [1.1 Brief Description](#11-brief-description)
 - [2. Flow of Events](#2-flow-of-events)
     - [2.1 Basic Flow](#21-basic-flow)
