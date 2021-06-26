@@ -113,8 +113,7 @@ All references can be found in our documentation Repo [here](https://github.com/
 In the following sections the aspects Architectural Representation, Architectural Goals and Constraints, class diagram of the project, overview of the use cases and quality assurance are described.
 
 #### 2. Architectural Representation
-High level architecture:
-<iframe  src="https://github.com/LittleBeasts/documentation/blob/master/ProjectStructure.pdf"/>
+[High level architecture](https://github.com/LittleBeasts/documentation/blob/master/ProjectStructure.pdf)
 The backend consists of the CE which handles all logic processes. 
 All GUI elements are created and rendered through the frontend which implements LITIEngine functionality. 
 The controller receives the user inputs from the frontend and interacts with the backend.
