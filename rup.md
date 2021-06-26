@@ -114,6 +114,7 @@ In the following sections the aspects Architectural Representation, Architectura
 
 #### 2. Architectural Representation
 [High level architecture](https://github.com/LittleBeasts/documentation/blob/master/ProjectStructure.pdf)
+
 The backend consists of the CE which handles all logic processes. 
 All GUI elements are created and rendered through the frontend which implements LITIEngine functionality. 
 The controller receives the user inputs from the frontend and interacts with the backend.
@@ -144,21 +145,12 @@ LITIEngine support distribution via Steam.
 <img src="https://raw.githubusercontent.com/LittleBeasts/documentation/master/useCases/diagrams/use_cases.png"/>
 
 ##### 4.1 Use-Case Realizations
-
-tbd
-
-[This section illustrates how the software actually works by giving a
-few selected use-case (or scenario) realizations, and explains how the
-various design model elements contribute to their functionality.]
+This [catch use case](https://github.com/LittleBeasts/documentation/blob/master/useCases/useCaseCatch.md) gives users the possibility to catch littleBeasts. The actor can try to catch a beast, and the system checks if all preconditions are met and the give a chance of success. The preconditions include the actor being engaged in the battle and having the required item to catch a beast( e.g. a cage). After that the system checks if the player has a free slot for the caught beast. When there is a free slot, the new beast is added to it. If not, the player can choose to release a beast from one of the slot or discard the newly aquired beast.
 
 #### 5. Logical View
-
-[This section describes the architecturally significant parts of the
-design model, such as its decomposition into subsystems and packages.
-And for each significant package, its decomposition into classes and
-class utilities. You should introduce architecturally significant
-classes and describe their responsibilities, as well as a few very
-important relationships, operations, and attributes.]
+Our Project is seperated into two parts:
+* The Calculation Engine (CE): this part of the project handles all calculations needed for game actions(e. g. catch, attack, tame) in the background.
+* LittleBeasts: this part handles the graphical representation and interaction of the player with the game.
 
 ##### 5.1 Overview
 
