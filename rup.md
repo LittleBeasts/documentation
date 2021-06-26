@@ -110,13 +110,11 @@ All references can be found in our documentation Repo [here](https://github.com/
 
 ##### 1.5 Overview
 
-[This subsection should describe what the rest of the **Software
-Architecture Document** contains and explain how the **Software
-Architecture Document** is organized.]
+In the following sections the aspects Architectural Representation, Architectural Goals and Constraints, class diagram of the project, overview of the use cases and quality assurance are described.
 
 #### 2. Architectural Representation
 
-[High level architecture](https://github.com/LittleBeasts/documentation/blob/549c2c89603a0edcc014ccb598b89efffed1a972/sad_high_level_architecture.png)
+[High level architecture](https://github.com/LittleBeasts/documentation/blob/master/ProjectStructure.pdf)
 
 The backend consists of the CE which handles all logic processes. 
 All GUI elements are created and rendered through the frontend which implements LITIEngine functionality. 
