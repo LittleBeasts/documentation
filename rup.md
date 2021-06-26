@@ -74,11 +74,9 @@ View](https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d
  Software Architecture Document
 
 #### 1. Introduction
-
-[The introduction of the **Software Architecture Document** should
-provide an overview of the entire **Software Architecture Document**. It
-should include the purpose, scope, definitions, acronyms, abbreviations,
-references, and overview of the **Software Architecture Document**.]
+littleBeasts is a fantasy roleplay game in which you’re thrown into a bizarre world.
+The game will include an interactive fighting system, an easy leveling mechanic and an explorable map. There will also be a story mode were the player can find NPCs and monsters to interact. In this world there will be safe-zones and battle-zones. In these battle-zones the player can engage in random encounters to find new beasts, gain EXP and loot.
+The game will be designed in pixel-art-style with animations for movements and fights.
 
 ##### 1.1 Purpose
 
@@ -108,12 +106,7 @@ This document describes the architecture of the littleBeast application, which c
 | **UC**   | Use Case                            |
 ##### 1.4 References
 
-[This subsection should provide a complete list of all documents
-referenced elsewhere in the **Software Architecture Document**.  Each
-document should be identified by title, report number (if applicable),
-date, and publishing organization.  Specify the sources from which the
-references can be obtained. This information may be provided by
-reference to an appendix or to another document.]
+All references can be found in our documentation Repo [here](https://github.com/LittleBeasts/documentation)
 
 ##### 1.5 Overview
 
