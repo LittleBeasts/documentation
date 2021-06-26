@@ -248,3 +248,10 @@ constraints.]
 
 Our architecture will provide a framework to easily implement the story of the game. All content can be altered and extended through JSON-Files and designwork in Tiled/UtiLITI so there is no need to code in JAVA.
 In order to archive the best possible maintainability the application underlies a continous refactoring process.
+##### 11.1 Pattern
+Using pattern can be helpful to solve architectural problems in the code in a clean and maintainable way.
+In this blog post we used the design patterns Composite and Strategy.
+https://littlebeastsgame.wordpress.com/2021/05/17/week-2-6-design-pattern/
+##### 11.2 Metrics 
+In this blog post we describe how to use a metrics tool to improve and maintain code quality 
+https://littlebeastsgame.wordpress.com/2021/05/31/week-2-7-metrics/
