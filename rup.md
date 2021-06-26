@@ -164,39 +164,26 @@ This [diagram](https://raw.githubusercontent.com/LittleBeasts/documentation/4a25
 
 #### 7. Deployment View
 
-Due to the java architecture used in the development, the game can be deployed on every viable computer with JRE
+Due to the java architecture used in the development, the game can be deployed on every viable computer with JRE.
 
 #### 8. Implementation View
 ![](https://github.com/LittleBeasts/documentation/blob/master/classDiagram.svg)
 
-[This section describes the overall structure of the implementation
-model, the decomposition of the software into layers and subsystems in
-the implementation model, and any architecturally significant
-components.]
-
 ##### 8.1 Overview
 
-[This subsection names and defines the various layers and their
-contents, the rules that govern the inclusion to a given layer, and the
-boundaries between layers. Include a component diagram that shows the
-relations between layers. ]
+(n/a)
 
 ##### 8.2 Layers
 
-[For each layer, include a subsection with its name, an enumeration of
-the subsystems located in the layer, and a component diagram.]
+(n/a)
 
 #### 9. Data View (optional)
 
-[A description of the persistent data storage perspective of the system.
-This section is optional if there is little or no persistent data, or
-the translation between the Design Model and the Data Model is trivial.]
+(n/a)
 
 #### 10. Size and Performance
-
-[A description of the major dimensioning characteristics of the software
-that impact the architecture, as well as the target performance
-constraints.]
+*The current version of the game(1.2.0) has a size of 17.3 MB.
+*The performance of the game is adequate on every Windows PC.
 
 #### 11. Quality
 
